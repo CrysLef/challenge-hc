@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background-color: rgba(252, 252, 252, 0.8);
+    display: flex;
+    justify-content: center;
+}
+
+
+.blackfriday {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.main-header {
+    background-color: #ff6348;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-title {
+    color: #fff;
+}
+
+.cart,.user {
+    width: 30px;
+    height: 30px;
+}
+
+.promo {
+    background-color: #4891ff;
+    display: flex;
+    align-items: center;
+    padding: 3px 15px;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+
+.email {
+    width: 60px;
+    height: 60px;
+}
+
+
+
