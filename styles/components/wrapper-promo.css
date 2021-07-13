@@ -4,8 +4,8 @@
     display: flex;
     align-items: center;
     border-radius: 3px;
-    width: 39vw;
-    margin: 50px auto 0 auto;
+    width: 40vw;
+    margin: 50px auto;
 }
 
 .wrapper-promo .email {
