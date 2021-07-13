@@ -1,0 +1,32 @@
+.default-button {
+    padding: 5px 8px;
+    border-radius: 5px;
+    background: #0be881;
+    cursor: pointer;
+}
+
+.default-button.-menu {
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.default-button.-menu .hamburguer {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+.default-button:hover {
+    background: #05c46b;
+}
+
+.default-button.-sale {
+    background: #d2dae2;
+}
+
+.default-button.-sale:hover {
+    background: #1e272e;
+    color: #0be881;
+}
