@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>LoremShop</title>
+    <title>Loremshop</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components/main-header.css">
+    <link rel="stylesheet" href="styles/components/blackfriday.css">
+    <link rel="stylesheet" href="styles/components/default-button.css">
+    <link rel="stylesheet" href="styles/components/main-input.css">
+    <link rel="stylesheet" href="styles/components/main-banner.css">
+    <link rel="stylesheet" href="styles/components/wrapper-promo.css">
+    <link rel="stylesheet" href="styles/components/wrapper-cards.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,37 +24,76 @@
 </head>
 <body>
     <div class="blackfriday">
-        <h2 class="main-title">CHEGOU A BLACKFRIDAY NA LOREMSHOP, APROVEITE !!</h2>
+        <h2 class="title">CHEGOU A BLACKFRIDAY NA LOREMSHOP, APROVEITE !!</h2>
     </div>
-    <header class="main-header">  
-            <img src="images/logo.png" alt="Logo da LoremShop">
-            <button>Pesquise por categoria</button>
-            <input type="search" placeholder="O que deseja encontrar ?">
+    <header class="main-header">
+        <div class="logo_menu">
+            <img src="images/logo.png" alt="Logo da Loremshop">
+            <button class="default-button -menu">
+                <img class="hamburguer" src="images/menu.svg" alt="">
+                Pesquise por categoria
+            </button>
+        </div>
+            <input class="main-input -search" type="search" placeholder="O que deseja encontrar ?">
+        <div class="icons">
             <img class="user" src="images/user.svg" alt="">
             <img class="cart" src="images/cart.svg" alt="">
+        </div>
     </header>
     <main>
         <section>
-            <div class="carousel">
-
+            <div class="main-banner">
+                <img class="banner" src="https://via.placeholder.com/1900x700/000000/0BE881?text=Template+Banner" alt="">
             </div>
 
-            <div class="promo">
+            <div class="wrapper-promo">
                 <img class="email" src="images/email.svg" alt="">
-                <p>Receba nossas ofertas por e-mail</p>
-                <input type="text" placeholder="Digite seu nome">
-                <input type="email" placeholder="Digite seu e-mail">
-                <button>Eu quero</button>
+                <p class="text">Receba nossas<br>ofertas por e-mail</p>
+                <input class="main-input -sale" type="text" placeholder="Digite seu nome">
+                <input class="main-input -sale" type="email" placeholder="Digite seu e-mail">
+                <button class="default-button -sale">Eu quero</button>
             </div>
-            <div class="wrapper-card">
-                <div class="cards"></div>
-                <div class="cards"></div>
-                <div class="cards"></div>
-                <div class="cards"></div>
-                <div class="cards"></div>
-                <div class="cards"></div>
-                <div class="cards"></div>
-                <div class="cards"></div>
+            <div class="wrapper-cards">
+                <div class="card">
+                    <img src="" alt="">
+                    <p></p>
+                    <h2></h2>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <p></p>
+                    <h2></h2>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <p></p>
+                    <h2></h2>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <p></p>
+                    <h2></h2>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <p></p>
+                    <h2></h2>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <p></p>
+                    <h2></h2>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <p></p>
+                    <h2></h2>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <p></p>
+                    <h2></h2>
+                </div>
             </div>
 
 
