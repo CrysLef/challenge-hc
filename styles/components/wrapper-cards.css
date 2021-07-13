@@ -1,0 +1,22 @@
+.wrapper-cards {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    row-gap: 40px;
+    column-gap: 20px;
+    margin: 150px 0;
+    justify-items: center;
+}
+
+.card {
+    background-color: #d2dae2;
+    display: grid;
+    justify-items: center;
+    width: 180px;
+    height: 250px;
+    padding-top: 20px;
+}
+
+.oldprice {
+    text-decoration: line-through;
+}
