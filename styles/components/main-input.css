@@ -1,0 +1,25 @@
+.main-input {
+    padding: 0 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.main-input:focus {
+    background: #0be881;
+}
+
+
+.main-input.-search {
+    width: 800px;
+    height: 35px;
+    transform: translateX(-120px);
+}
+
+.main-input.-sale {
+    width: 180px;
+    height: 30px;
+    margin: 0 10px ;
+}
+.main-input.-sale:focus {
+    background: #d2dae2;
+}
