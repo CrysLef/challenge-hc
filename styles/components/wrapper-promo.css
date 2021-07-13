@@ -1,0 +1,19 @@
+.wrapper-promo {
+    background-color: #05c46b;
+    padding: 3px 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    width: 39vw;
+    margin: 50px auto 0 auto;
+}
+
+.wrapper-promo .email {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.wrapper-promo .text {
+    margin-right: 10px;
+}
