@@ -1,7 +1,6 @@
 .blackfriday {
     background-color: #000;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .blackfriday .title {
