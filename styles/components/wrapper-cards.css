@@ -2,9 +2,9 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
-    row-gap: 40px;
-    column-gap: 20px;
-    margin: 150px 0;
+    row-gap: 4rem;
+    column-gap: 2rem;
+    margin: 15rem 0;
     justify-items: center;
 }
 
@@ -12,11 +12,19 @@
     background-color: #d2dae2;
     display: grid;
     justify-items: center;
-    width: 180px;
-    height: 250px;
-    padding-top: 20px;
+    width: 18rem;
+    height: 25rem;
+    padding-top: 2rem;
 }
 
 .oldprice {
     text-decoration: line-through;
+}
+
+.wrapper-cards p, .wrapper-cards span {
+    font-size: 1.6rem;
+}
+
+.wrapper-cards h2 {
+    font-size: 2.4rem;
 }
