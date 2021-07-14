@@ -1,18 +1,24 @@
 'use strict';
 
-const promoButon = document.querySelector('.default-button .-sale');
-const promoInput = document.querySelector('.main-input .-sale');
-console.log(document.querySelector('.main-input .-name'))
-console.log(document.querySelector('.main-input .-email'))
+const promoForm = document.querySelector('.handleUser');
+const nameInput = document.querySelector('.main-input.-name');
+const emailInput = document.querySelector('.main-input.-email');
 
-promoButon.addEventListener('submit',evento => {
+promoForm.addEventListener('submit',evento => {
     evento.preventDefault();
-    promoInput.value = null;
-})
+    let nome = document.querySelector('.main-input.-name').value;
+    let email = document.querySelector('.main-input.-email').value;
 
-const setLocalStorage = function() {
-    promoButon.addEventListener('click',() => {
-        localStorage.setItem('nome',`${inputValueName}`)
-        localStorage.setItem('email',`${inputValueEmail}`)
-    })
-}
+    let promoData = {
+        nome,
+        email
+    };
+
+    let convertData = JSON.stringify(promoData);
+
+    localStorage.setItem('promoLead',convertData);
+
+    nameInput.value = null;
+    emailInput.value = null;
+  
+});
