@@ -2,7 +2,7 @@
     <img alt='Logo da Loremshop' src='images/logo.png' width='100px'>
 </h1>
 
-<h2 align='center' style='font-weight: 700;font-size: 30px'>LOREMSHOP</h2>
+<h2 align='center'>LOREMSHOP</h2>
 <p align='center'>
 <img src="https://api.netlify.com/api/v1/badges/44eb1098-3717-4873-abe4-d770a06e8d6b/deploy-status" alt="Netlify Status">
 
@@ -18,7 +18,7 @@
 <br >
 
 ## 🚀 Tecnologias
----
+
 <br >
 
 As tecnologias usadas neste desafio foram:
@@ -31,7 +31,7 @@ As tecnologias usadas neste desafio foram:
 
 ## 👀 Sobre
 
-----
+
 <br >
 
 Este projeto foi criado com base no desafio proposto nos assignments da plataforma da Gama Academy, nele eram propostos os seguintes desafios:
@@ -46,10 +46,10 @@ Este projeto foi criado com base no desafio proposto nos assignments da platafor
 
 ## 📝License
 
------
+
 <br >
 
-Este projeto está sobre a licença da MIT, caso queira saber mais detalhes, clique neste [link]().
+Este projeto está sobre a licença da MIT, caso queira saber mais detalhes, clique neste [link](https://github.com/CrysLef/challenge-hc/blob/main/LICENSE).
 
 
 <br >
